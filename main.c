@@ -2,7 +2,11 @@
 
 int main(){
   char i;
-  printf("Hello World");
+  int x = 5;
+  int y = 7;
+  
+  printf("Hello World! El resultado es: %d", (x+y));
+  
   getchar();
   return 0;
 }
