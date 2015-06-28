@@ -13,6 +13,7 @@ int main(){
   
   printf("El resultado es: %d \r\n", (x+y));
   
+  printf("Presione la tecla 0 y luego ENTER para salir\r\n");
   while (i != '0'){
     scanf("%c", &i);
   }
