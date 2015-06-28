@@ -14,7 +14,7 @@ int main(){
   
   STRING_IO_print_result(x+y);
   
-  printf("Presione la tecla 0 y luego ENTER para salir\r\n");
+  printf("Presione la tecla '0' y luego ENTER para salir\r\n");
   while (i != '0'){
     scanf("%c", &i);
   }
