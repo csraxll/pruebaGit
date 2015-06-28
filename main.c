@@ -1,17 +1,18 @@
 #include <stdio.h>
+#include "STRING_IO.h"
 
 int main(){
   char i= 'a';
   int x = 0;
   int y = 0;
 
-  printf("Ingrese un número X para sumar\r\n");
+  STRING_IO_print_message('X');
   scanf("%d", &x);
 
-  printf("Ingrese un número Y para sumar\r\n");
+  STRING_IO_print_message('Y');
   scanf("%d", &y);
   
-  printf("El resultado es: %d \r\n", (x+y));
+  STRING_IO_print_result(x+y);
   
   printf("Presione la tecla 0 y luego ENTER para salir\r\n");
   while (i != '0'){
