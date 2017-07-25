@@ -14,6 +14,7 @@ int main(){
   
   STRING_IO_print_result_Sum(x+y);
   STRING_IO_print_result_Mul(x*y);
+  STRING_IO_print_result_Mul(x-y);
 
   STRING_IO_print_exit_message();
 
